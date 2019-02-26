@@ -36,3 +36,8 @@ for index in range(len(list)):
 
 while loops
 while  count < 3 :
+
+List comprehensions
+[x**2 for x in range(10)]     #[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+[letter for letter in str]     #['d', 'a', 'v', 'i', 'd']
+
