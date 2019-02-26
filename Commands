@@ -6,3 +6,6 @@ dir(l)
 
 import os 
 help(os)
+
+for loop examples
+for i in range(10):
