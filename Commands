@@ -48,3 +48,8 @@ List comprehensions
 [letter for letter in str]     #['d', 'a', 'v', 'i', 'd']
 [letter for letter in str if letter == 'd'] # ['d', 'd']
 
+Functions
+def say_hello(name="David"):
+	return "hello"+name
+say_hello("jin")   # 'hellojin'
+>>> say_hello()  # 'helloDavid'
