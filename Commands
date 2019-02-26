@@ -19,6 +19,8 @@ for loop examples
 for i in range(10):
 for i in prev_defined_list:    #iterable list,tuple [] ()
 for i in 'abcde':              #loop over string
+for index in range(len(list)): 
+    print list[index] 
 
 while loops
 while  count < 3 :
