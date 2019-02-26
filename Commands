@@ -7,9 +7,15 @@ dir(l)
 import os 
 help(os)
 
+Dictionaries
+d = {}    #empty dictionary
+d[0] = "hello"  #add element to dictionary
+d.keys()        # get keys
+d.items()       #get values
+
 for loop examples
 for i in range(10):
-for i in prev_defined_list:
+for i in prev_defined_list:    #iterable list,tuple
 
 while loops
 while  count < 3 :
