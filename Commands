@@ -10,10 +10,11 @@ help(os)
 Dictionaries
 d = {}    #empty dictionary
 d[0] = "hello"  #add element to dictionary
-d.keys()        # get all keys
-d.values()
-d.items()       #get all key,values as a list of tuples
-d.get(0)       #get value of particular key
+d  {0: 'hello', 1: 'there'}
+d.keys()        # get all keys [0, 1]
+d.values()      #vget all values  ['hello', 'there']
+d.items()       #get all key,values as a list of tuples [(0, 'hello'), (1, 'there')]
+d.get(0)       #get value of particular key  'hello'
 for k,v in d.iteritems():      #returns tuples
 	print k, v
 
