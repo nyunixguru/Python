@@ -12,6 +12,7 @@ help('string') # all methods of string
 mystring ='helloDavid'
 mystring[0]   #'h'
 mystring[0:3]  #'hel'
+mystring.split('D')   #['hello', 'avid']
 
 Dictionaries
 d = {}    #empty dictionary
