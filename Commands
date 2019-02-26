@@ -9,4 +9,7 @@ help(os)
 
 for loop examples
 for i in range(10):
-for i in defined_list:
+for i in prev_defined_list:
+
+while loops
+while ( count < 3 ):
