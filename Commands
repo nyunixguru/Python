@@ -12,4 +12,4 @@ for i in range(10):
 for i in prev_defined_list:
 
 while loops
-while ( count < 3 ):
+while  count < 3 :
