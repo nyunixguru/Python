@@ -7,6 +7,7 @@ dir(l)
 
 import os 
 help(os)
+
 Strings - immutable ordered sequences indexable and sliceable single or double quotes allowed
 help('string') # all methods of string
 mystring ='helloDavid'
