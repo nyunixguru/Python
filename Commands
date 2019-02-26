@@ -7,6 +7,9 @@ dir(l)
 
 import os 
 help(os)
+Strings immutable ordered sequences indexable and sliceable
+mystring ='helloDavid'
+mystring[0]   #'h'
 
 Dictionaries
 d = {}    #empty dictionary
