@@ -2,6 +2,7 @@
 Getting help on an object(s)
 l = [1,2,3]  #define a list
 help(l)
+help(l.insert)   # get help syntax on a method
 dir(l)
 
 import os 
