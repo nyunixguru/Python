@@ -19,6 +19,14 @@ d.has_key(0)   # does it contain key ? True
 for k,v in d.iteritems():      #returns tuples
 	print k, v
 
+if then else
+if expression1:
+   statement(s)
+elif expression2:
+   statement(s)
+else:
+   statement(s)
+
 for loops
 for i in range(10):
 for i in prev_defined_list:    #iterable list,tuple [] ()
