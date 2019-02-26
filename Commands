@@ -10,8 +10,10 @@ help(os)
 Dictionaries
 d = {}    #empty dictionary
 d[0] = "hello"  #add element to dictionary
-d.keys()        # get keys
-d.items()       #get values
+d.keys()        # get all keys
+d.values()
+d.items()       #get all key,values as a list of tuples
+d.get(0)       #get value of particular key
 for k,v in d.iteritems():      #returns tuples
 	print k, v
 
