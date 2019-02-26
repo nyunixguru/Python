@@ -52,4 +52,4 @@ Functions
 def say_hello(name="David"):
 	return "hello"+name
 say_hello("jin")   # 'hellojin'
->>> say_hello()  # 'helloDavid'
+say_hello()  # 'helloDavid' returns default parameter
