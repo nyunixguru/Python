@@ -39,5 +39,7 @@ while  count < 3 :
 
 List comprehensions
 [x**2 for x in range(10)]     #[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+[x**2 for x in range(10) if x%2 == 0]  #[0, 4, 16, 36, 64]
 [letter for letter in str]     #['d', 'a', 'v', 'i', 'd']
+[letter for letter in str if letter == 'd'] # ['d', 'd']
 
