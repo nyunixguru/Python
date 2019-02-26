@@ -1,5 +1,8 @@
 
-Getting help on an object
-l = [1,2,3]
+Getting help on an object(s)
+l = [1,2,3]  #define a list
 help(l)
 dir(l)
+
+import os 
+help(os)
