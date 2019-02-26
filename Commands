@@ -7,9 +7,10 @@ dir(l)
 
 import os 
 help(os)
-Strings immutable ordered sequences indexable and sliceable
+Strings - immutable ordered sequences indexable and sliceable single or double quotes allowed
 mystring ='helloDavid'
 mystring[0]   #'h'
+mystring[0:3]  #'hel'
 
 Dictionaries
 d = {}    #empty dictionary
