@@ -12,10 +12,13 @@ d = {}    #empty dictionary
 d[0] = "hello"  #add element to dictionary
 d.keys()        # get keys
 d.items()       #get values
+for k,v in d.iteritems():      #returns tuples
+	print k, v
 
 for loop examples
 for i in range(10):
-for i in prev_defined_list:    #iterable list,tuple
+for i in prev_defined_list:    #iterable list,tuple [] ()
+for i in 'abcde':              #loop over string
 
 while loops
 while  count < 3 :
