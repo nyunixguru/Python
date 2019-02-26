@@ -18,6 +18,9 @@ d.get(0)       #get value of particular key  'hello'
 d.has_key(0)   # does it contain key ? True
 for k,v in d.iteritems():      #returns tuples
 	print k, v
+Booleans
+True or False
+type(False) ==> bool
 
 if then else
 if expression1:
