@@ -5,7 +5,7 @@ help(l)
 help(l.insert)   # get help syntax on a method
 dir(l)
 
-import os 
+import os
 help(os)
 
 Strings - immutable ordered sequences indexable and sliceable single or double quotes allowed
@@ -43,8 +43,8 @@ for i in range(10):         #0,1,2,...9
 for num in range(10,15):    #10,11,12,13,14,14
 for i in prev_defined_list:    #iterable list,tuple [] ()
 for i in 'abcde':              #loop over string
-for index in range(len(list)): 
-    print list[index] 
+for index in range(len(list)):
+    print list[index]
 
 while loops
 while  count < 3 :
@@ -60,3 +60,11 @@ def say_hello(name="David"):
 	return "hello"+name
 say_hello("jin")   # 'hellojin'
 say_hello()  # 'helloDavid' returns default parameter
+
+f = open("/etc/passwd","r")
+text = f.readline()
+text1 = f.read()
+print text
+print "\n"
+print text1
+f.close()
