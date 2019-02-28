@@ -63,8 +63,8 @@ say_hello()  # 'helloDavid' returns default parameter
 
 Files
 f = open("/etc/passwd","r")
-text = f.readline()
-text1 = f.read()
+text = f.readline()  #read one line increment cursor
+text1 = f.read()     #read whole rest of file
 print text
 print "\n"
 print text1
