@@ -1,0 +1,6 @@
+
+Install pip
+yum install python-pip #python-pip package
+
+Install boto
+sudo /usr/bin/pip install boto
