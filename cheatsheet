@@ -8,6 +8,11 @@ dir(l)
 import os
 help(os)
 
+
+INPUT
+name = input("please enter your name")
+
+
 Strings - immutable ordered sequences indexable and sliceable single or double quotes allowed
 help('string') # all methods of string
 mystring ='helloDavid'
