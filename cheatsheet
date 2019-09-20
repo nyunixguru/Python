@@ -35,6 +35,15 @@ Booleans
 True or False
 type(False) ==> bool
 
+COMPARISION OPERATORS
+==   
+!=
+<
+>
+<=
+>=
+
+
 if then else
 if expression1:
    statement(s)
